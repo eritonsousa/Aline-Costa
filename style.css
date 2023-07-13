@@ -22,9 +22,17 @@ body {
     text-align: center;
   }
 
+  .logo img{
+    width: 106px;
+  }
+
   h1 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+  }
+
+  p{
+    margin-top: 0;
   }
 
   .options {
@@ -43,6 +51,7 @@ body {
     font-weight: bolder;
     text-decoration: none;
     border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.514);
     transition: background-color 0.3s;
   }
 
@@ -66,17 +75,4 @@ body {
     }
   }
 
-  @media screen and (min-width: 375px) and (max-width: 768px){
-    /* MOBILE */
-    .options a {
-      padding: 14px 120px;
-    }
-  }
-
-  @media screen and (min-width: 768px) and (max-width: 992px) {
-    .options a {
-      padding: 14px 150px;
-    }
-  }
-    
   
