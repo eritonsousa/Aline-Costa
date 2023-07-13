@@ -1,8 +1,13 @@
+*{
+  max-width: 1400px;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-image: url('img/capa-02.png');
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     font-family: Arial, sans-serif;
   }
@@ -60,3 +65,18 @@ body {
         opacity: 0;
     }
   }
+
+  @media screen and (min-width: 375px) and (max-width: 768px){
+    /* MOBILE */
+    .options a {
+      padding: 14px 120px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .options a {
+      padding: 14px 150px;
+    }
+  }
+    
+  
